@@ -4,6 +4,8 @@ import { Article } from "@/lib/types/article";
 import { ArticleThumbnail } from "./ArticleThumbnail";
 import { ArticleMetadata } from "./ArticleMetadata";
 import { ArticleActions } from "./ArticleActions";
+import { Button } from "../ui/button";
+import { ArrowRight, ChevronUp } from "lucide-react";
 
 interface ArticleCardProps {
   article: Article;
@@ -20,6 +22,8 @@ export function ArticleCard({ article }: ArticleCardProps) {
         <ArticleMetadata article={article} />
       </div>
       <ArticleActions article={article} />
+      <div className="flex items-center gap-2"> <Button variant="outline" size="sm">Ver mais <ArrowRight className="w-4 h-4" /></Button>
+      </div>
     </div>
   );
 }
