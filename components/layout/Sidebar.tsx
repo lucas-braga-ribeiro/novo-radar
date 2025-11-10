@@ -9,7 +9,6 @@ const navItems: { id: NavItemType; label: string; icon: React.ComponentType<{ cl
   { id: "Quente", label: "Quente", icon: Flame },
   { id: "Enquetes", label: "Enquetes", icon: Lightbulb },
   { id: "Vagas", label: "Vagas", icon: DollarSign },
-  { id: "Ferramentas", label: "Ferramentas", icon: Wrench },
 ];
 
 interface SidebarProps {
