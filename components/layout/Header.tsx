@@ -4,6 +4,7 @@ import { Logo } from "../header/Logo";
 import { SearchBar } from "../header/SearchBar";
 import { AlgoliaBranding } from "../header/AlgoliaBranding";
 import { SettingsButton } from "../header/SettingsButton";
+import { DarkModeToggle } from "../sidebar/DarkModeToggle";
 
 interface HeaderProps {
   searchQuery?: string;
@@ -18,6 +19,7 @@ export function Header({ searchQuery, onSearchChange }: HeaderProps) {
         <div className="flex-1 flex justify-center max-w-2xl mx-8">
           <SearchBar value={searchQuery} onChange={onSearchChange} />
         </div>
+        <DarkModeToggle />
         
       </div>
     </header>

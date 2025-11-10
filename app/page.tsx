@@ -1,9 +1,7 @@
 "use client";
 
 import { Header } from "@/components/layout/Header";
-import { Sidebar } from "@/components/layout/Sidebar";
 import { MainContent } from "@/components/layout/MainContent";
-import { FilterBar } from "@/components/filters/FilterBar";
 import { ArticleList } from "@/components/articles/ArticleList";
 import { useArticles } from "@/lib/hooks/useArticles";
 
@@ -26,18 +24,9 @@ export default function Home() {
     <div className="flex flex-col h-screen bg-white dark:bg-black overflow-hidden">
       <Header searchQuery={searchQuery} onSearchChange={setSearchQuery} />
       <div className="flex flex-1 pt-16 overflow-hidden">
-        <Sidebar activeNav={activeNav} onNavChange={setActiveNav} />
         <MainContent>
-          <div className="ml-64 h-full flex flex-col">
-            <FilterBar
-              filterType={filterType}
-              onFilterTypeChange={setFilterType}
-              sortBy={sortBy}
-              onSortByChange={setSortBy}
-              timeRange={timeRange}
-              onTimeRangeChange={setTimeRange}
-              resultsCount={articles.length}
-            />
+          <div className="mx-auto w-2/3 h-full flex flex-col">
+       
             <div className="flex-1 overflow-y-auto">
               <ArticleList articles={articles} />
             </div>
