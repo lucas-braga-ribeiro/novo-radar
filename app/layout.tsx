@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Hacker News Portal",
-  description: "Search Hacker News stories",
+  title: "Novo Radar - Tech, IA, Programação, Startups e mais",
+  description: "Novo Radar é um portal de notícias sobre Tech, IA, Programação, Startups e mais",
 };
 
 export default function RootLayout({
