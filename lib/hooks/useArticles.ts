@@ -5,7 +5,7 @@ import { Article, NavItem, FilterType, SortBy, TimeRange } from "../types/articl
 import { mockArticles } from "../data/mockArticles";
 
 export function useArticles() {
-  const [activeNav, setActiveNav] = useState<NavItem>("All");
+  const [activeNav, setActiveNav] = useState<NavItem>("Quente");
   const [filterType, setFilterType] = useState<FilterType>("Stories");
   const [sortBy, setSortBy] = useState<SortBy>("Popularity");
   const [timeRange, setTimeRange] = useState<TimeRange>("All time");
