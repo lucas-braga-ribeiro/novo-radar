@@ -14,7 +14,7 @@ export function ArticleMetadata({ article }: ArticleMetadataProps) {
         <ThumbsUp className="size-3" />
         <span>{article.likes} </span>
       </div>
-      <div className="px-2 py-1  text-xs text-gray-700 dark:text-gray-300 min-w-[2.5rem] text-center flex items-center gap-2">
+      <div className="px-2 py-1  text-xs text-gray-700 dark:text-gray-300 text-center flex items-center gap-2">
         <MessageCircle className="size-3" />
         {article.comments}
       </div>

@@ -13,15 +13,16 @@ export default function Home() {
     <div className="flex flex-col h-screen bg-white dark:bg-black overflow-hidden">
       <Header searchQuery={searchQuery} onSearchChange={setSearchQuery} />
       <div className="flex flex-1 pt-16 overflow-hidden">
-        <MainContent>
+        <MainContent >
           <div className="mx-auto w-2/3 h-full flex flex-col">
        
-            <div className="flex-1 overflow-y-auto">
+            <div className="flex-1  overflow-y-auto max-h-full">
               <ArticleList articles={articles} />
             </div>
           </div>
         </MainContent>
       </div>
     </div>
+    
   );
 }

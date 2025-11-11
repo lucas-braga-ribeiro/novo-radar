@@ -8,7 +8,7 @@ interface MainContentProps {
 
 export function MainContent({ children }: MainContentProps) {
   return (
-    <div className="flex-1 bg-white dark:bg-black overflow-hidden">
+    <div className="flex-1 bg-white dark:bg-black overflow-x-hidden overflow-y-auto">
       {children}
     </div>
   );
