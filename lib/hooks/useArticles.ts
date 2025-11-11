@@ -20,8 +20,7 @@ export function useArticles() {
       articles = articles.filter(
         (article) =>
           article.title.toLowerCase().includes(query) ||
-          article.author.toLowerCase().includes(query) ||
-          article.domain.toLowerCase().includes(query)
+          article.tags.some((tag) => tag.toLowerCase().includes(query))
       );
     }
 

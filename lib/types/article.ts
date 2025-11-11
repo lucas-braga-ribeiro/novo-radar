@@ -3,11 +3,10 @@ export interface Article {
   title: string;
   thumbnail: string;
   likes: number;
-  author: string;
   timePosted: string;
-  domain: string;
   comments: number;
-  url: string;
+  url: string; 
+  tags: ("tecnologia" | "startup" | "AI" | "negocios" | "economia" | "ciencia" | "financas" )[];
 }
 
 export type NavItem = "Quente" | "Enquetes" | "Vagas" | "Starred";

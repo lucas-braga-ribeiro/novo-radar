@@ -7,18 +7,7 @@ import { useArticles } from "@/lib/hooks/useArticles";
 
 export default function Home() {
   const {
-    articles,
-    activeNav,
-    setActiveNav,
-    filterType,
-    setFilterType,
-    sortBy,
-    setSortBy,
-    timeRange,
-    setTimeRange,
-    searchQuery,
-    setSearchQuery,
-  } = useArticles();
+    articles, searchQuery, setSearchQuery } = useArticles();
 
   return (
     <div className="flex flex-col h-screen bg-white dark:bg-black overflow-hidden">
