@@ -31,8 +31,8 @@ export function ArticleCard({ article }: ArticleCardProps) {
     
   
   
-        <Button variant="outline" size="sm" className="group h-full w-20 rounded-sm flex items-center justify-center bg-gray-100 dark:bg-gray-900 cursor-pointer hover:border-gray-300 dark:hover:border-gray-700
-         hover:bg-gray-200 dark:hover:bg-gray-800 transition-colors"> <ThumbsUp className="size-5 group-hover:-rotate-12 group-hover:scale-110 transition-all duration-300" /></Button>
+        <Button variant="outline" size="sm" className="group h-full w-20 rounded-sm flex items-center justify-center  cursor-pointer hover:border-gray-300 dark:hover:border-gray-700
+         hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"> <ThumbsUp className="size-5 group-hover:-rotate-12 group-hover:scale-110 transition-all duration-300" /></Button>
         </div>
      
   );
