@@ -6,23 +6,16 @@ import { ArticleList } from "@/components/articles/ArticleList";
 import { useArticles } from "@/lib/hooks/useArticles";
 
 export default function Home() {
-  const {
-    articles, searchQuery, setSearchQuery } = useArticles();
+  const { articles, searchQuery, setSearchQuery } = useArticles();
 
   return (
-    <div className="flex flex-col h-screen bg-white dark:bg-black overflow-hidden">
+    <div className="flex flex-col h-screen bg-white dark:bg-black">
       <Header searchQuery={searchQuery} onSearchChange={setSearchQuery} />
-      <div className="flex flex-1 pt-16 overflow-hidden">
-        <MainContent >
-          <div className="mx-auto w-2/3 h-full flex flex-col">
-       
-            <div className="flex-1  overflow-y-auto max-h-full">
-              <ArticleList articles={articles} />
-            </div>
-          </div>
-        </MainContent>
-      </div>
+      <MainContent>
+        <div className="mx-auto w-2/3 h-full flex flex-col">
+          <ArticleList articles={articles} />
+        </div>
+      </MainContent>
     </div>
-    
   );
 }
