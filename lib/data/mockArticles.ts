@@ -10,6 +10,7 @@ export const mockArticles: Article[] = [
     timePosted: "A year ago",
     comments: 324,
     url: "https://www.bbc.com",
+    isHot: true,
   },
   {
     id: "2",
@@ -20,6 +21,7 @@ export const mockArticles: Article[] = [
     timePosted: "Too long time ago",
     comments: 924,
     url: "https://www.apple.com",
+    isHot: false,
   },
   {
     id: "3",
@@ -30,6 +32,7 @@ export const mockArticles: Article[] = [
     timePosted: "3 years ago",
     comments: 127,
     url: "https://www.susanjfowler.com",
+    isHot: false,
   },
   {
     id: "4",
@@ -40,6 +43,7 @@ export const mockArticles: Article[] = [
     timePosted: "yesterday",
     comments: 928,
     url: "https://www.nytimes.com",
+    isHot: false,
   },
   {
     id: "5",
@@ -50,6 +54,7 @@ export const mockArticles: Article[] = [
     timePosted: "6 months ago",
     comments: 64,
     url: "https://news.ycombinator.com",
+    isHot: false,
   },
   {
     id: "6",
@@ -60,6 +65,7 @@ export const mockArticles: Article[] = [
     timePosted: "A year ago",
     comments: 923,
     url: "https://www.mozilla-foundation.com",
+    isHot: false,
   },
   {
     id: "7",
@@ -70,6 +76,7 @@ export const mockArticles: Article[] = [
     timePosted: "2 years ago",
     comments: 723,
     url: "https://github.com",
+    isHot: false,
   },
   {
     id: "8",
@@ -80,6 +87,7 @@ export const mockArticles: Article[] = [
     timePosted: "4 months ago",
     comments: 610,
     url: "https://stackoverflow.com",
+    isHot: false,
   },
   {
     id: "9",
@@ -90,6 +98,7 @@ export const mockArticles: Article[] = [
     timePosted: "A year ago",
     comments: 324,
     url: "https://www.bbc.com",
+    isHot: false,
   },
   {
     id: "10",
@@ -100,6 +109,7 @@ export const mockArticles: Article[] = [
     timePosted: "Too long time ago",
     comments: 924,
     url: "https://www.apple.com",
+    isHot: false,
   },
   {
     id: "11",
@@ -110,6 +120,7 @@ export const mockArticles: Article[] = [
     timePosted: "3 years ago",
     comments: 127,
     url: "https://www.susanjfowler.com",
+    isHot: false,
   },
   {
     id: "12",
@@ -120,6 +131,7 @@ export const mockArticles: Article[] = [
     timePosted: "yesterday",
     comments: 928,
     url: "https://www.nytimes.com",
+    isHot: false,
   },
   {
     id: "13",
@@ -130,6 +142,7 @@ export const mockArticles: Article[] = [
     timePosted: "6 months ago",
     comments: 64,
     url: "https://news.ycombinator.com",
+    isHot: false,
   },
   {
     id: "14",
@@ -140,6 +153,7 @@ export const mockArticles: Article[] = [
     timePosted: "A year ago",
     comments: 923,
     url: "https://www.mozilla-foundation.com",
+    isHot: false,
   },
   {
     id: "15",
@@ -150,6 +164,7 @@ export const mockArticles: Article[] = [
     timePosted: "2 years ago",
     comments: 723,
     url: "https://github.com",
+    isHot: false,
   },
   {
     id: "16",
@@ -160,6 +175,7 @@ export const mockArticles: Article[] = [
     timePosted: "4 months ago",
     comments: 610,
     url: "https://stackoverflow.com",
+    isHot: false,
   },
 ];
 

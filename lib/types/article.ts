@@ -6,6 +6,7 @@ export interface Article {
   timePosted: string;
   comments: number;
   url: string; 
+  isHot: boolean;
   tags: ("tecnologia" | "startup" | "AI" | "negocios" | "economia" | "ciencia" | "financas" )[];
 }
 
